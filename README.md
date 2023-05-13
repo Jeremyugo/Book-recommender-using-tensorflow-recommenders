@@ -30,7 +30,7 @@ The model performed well on the test set, with the following metrics:
 
 #### Model Architecture
 The recommendation model was built using TensorFlow Recommenders and consists of several dense layers and a Deep & Cross layer for feature crossing. The model is also capable of performing retrieval and ranking tasks which are the main components of real-world recommendation systems. The model can include embedding layers to represent user id, user age, book author and book title information. After training the model, a custom function `Recommend()` which takes user input and validates them against a other custom functions was created. This function performs the retrieval of books that align with the user's interests and outputs them in the order of their ranking.<br/>
-===========================================================================================================================================================================================================================
+<br/>
 #### `UserModel()`
 ![usermodel](https://github.com/Jeremyugo/Book-recommender-using-tensorflow-recommenders/assets/36512525/9966ea87-dadd-4352-a356-db2913bd6093)
 <br/>
